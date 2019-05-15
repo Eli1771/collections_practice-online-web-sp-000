@@ -51,7 +51,9 @@ def add_s(array)
   array.each_with_index do |item, index|
     if index != 1 
       result << item + "s"
-    end 
+    else 
+      result << item
+    end
   end
   result
 end
